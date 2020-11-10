@@ -1,15 +1,13 @@
-# Terraform Provider Hashicups
+# Terraform Provider DNSPOD
 
-This repo is a companion repo to the [Call APIs with Terraform Providers](https://learn.hashicorp.com/collections/terraform/providers) Learn collection. 
-
-In the collection, you will use the HashiCups provider as a bridge between Terraform and the HashiCups API. Then, extend Terraform by recreating the HashiCups provider. By the end of this collection, you will be able to take these intuitions to create your own custom Terraform provider. 
+put ```terraform-provider-dnspod``` to .terraform/plugins/linux_amd64/
 
 ## Build provider
 
 Run the following command to build the provider
 
 ```shell
-$ go build -o terraform-provider-hashicups
+$ go build -o terraform-provider-dnspod
 ```
 
 ## Test sample configuration
