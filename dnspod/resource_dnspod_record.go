@@ -3,14 +3,10 @@ package dnspod
 import (
 	"fmt"
 	"strconv"
-        "context"
-        "strconv"
-        "time"
 
-        "github.com/hashicorp/terraform-plugin-sdk/v2/diag"
         "github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/linuxdict/dnspod-go/service"
 
-	"github.com/CuriosityChina/dnspod-go/service"
 )
 
 func resourceDnspodRecord() *schema.Resource {

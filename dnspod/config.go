@@ -1,7 +1,9 @@
 package dnspod
 
 import (
-	"clevergo.tech/dnspodcn"
+	"github.com/linuxdict/dnspod-go/client"
+	"github.com/linuxdict/dnspod-go/logger"
+	"github.com/linuxdict/dnspod-go/service"
 )
 
 // Config dnspod provider configration
